@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+    #top_right{color:#999;font-size:12px;padding:6px 10px;position:absolute;right:0;top:0}
+    #top_right a{font-size:12px}
+
+    #main {margin:25px auto 100px auto;padding:0 35px;width:530px}
+    #main h1{margin-bottom:4px;text-align:center}
+    #main h1 a img{border:none}
+    #main ul{list-style-type:none;padding:0 0 0 45px;width:410px}
+    #main ul li{float:left;margin-right:18px}
+    #main ul li a.mr{color:#000;font-weight:bold}
+    #search_form{clear:both;margin-left:15px;padding-top:4px}
+    </style>
 </head>
+
 <body>
+
+<div id="top_right">
+<a href="#">搜索设置</a> | <a href="#">登陆</a> <a href="#">注册</a>
+</div>
+
+<div id="main">
+    <h1><a href="#" class="logo"><img src="/static/images/cyber1.jpg"></a></h1>
+    <ul class="nav">
+    <li><a href="#">新闻</a></li>
+    <li><a href="#" class="mr">网页</a></li>
+    <li><a href="#">贴吧</a></li>
+    <li><a href="#">知道</a></li>
+    <li><a href="#">MP3</a></li>
+    <li><a href="#">图片</a></li>
+    <li><a href="#">视频</a></li>
+    <li><a href="#">地图</a></li>
+    </ul>
+    <form action="#" method="post" id="search_form">
+    <input name="" type="text" id="keyword">
+    <input name="" type="button" value="百度一下" class="search_btn" onmouseout="'this.className='search_btn'" onmousedown="'this.className.down_btn'">
+    </form>
+</div>
+
 <h1>
-<a href=" {%  url 'blog:edit_page' 0 %}">新文章</a>
+<a href=" {%  url 'blog:edit_page' 0 %}">CyPunk discuz_赛博朋克论坛</a>
 </h1>
+<img src="/static/images/cyber1.jpg" width="600" height="300"/>
 {% for article in articles %}
     <a href="{% url 'blog:article_page' article.id %}">{{ article.title }}</a>
     <br/>

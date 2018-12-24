@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from . import models
 
+def homepage(request):
+    articles=models.Article.objects.all()
+    return render(request,'blog/index.html',{'articles':articles})
 
 def index(request):
     #article=models.Article.objects.get(pk=1) #返回 主键为1的对象
