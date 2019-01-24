@@ -1,0 +1,1248 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 08:41:44 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /root/anaconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros>
+chdir(): No such file or directory [core/uwsgi.c line 2631]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 13:23:49 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x27b5b40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x27b5b40 pid: 1652 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1652)
+spawned uWSGI worker 1 (pid: 1654, cores: 1)
+spawned uWSGI worker 2 (pid: 1655, cores: 1)
+spawned uWSGI worker 3 (pid: 1656, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 13:27:37 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 13:30:01 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eef640
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1eef640 pid: 1977 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1977)
+spawned uWSGI worker 1 (pid: 1978, cores: 1)
+spawned uWSGI worker 2 (pid: 1979, cores: 1)
+spawned uWSGI worker 3 (pid: 1980, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 13:35:46 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1419b60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1419b60 pid: 2268 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2268)
+spawned uWSGI worker 1 (pid: 2270, cores: 1)
+spawned uWSGI worker 2 (pid: 2271, cores: 1)
+spawned uWSGI worker 3 (pid: 2272, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 13:36:59 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25ddb60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25ddb60 pid: 2335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2335)
+spawned uWSGI worker 1 (pid: 2336, cores: 1)
+spawned uWSGI worker 2 (pid: 2337, cores: 1)
+spawned uWSGI worker 3 (pid: 2338, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 14:15:03 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 14:21:53 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x249fb40
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x249fb40 pid: 5169 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5169)
+spawned uWSGI worker 1 (pid: 5170, cores: 1)
+spawned uWSGI worker 2 (pid: 5171, cores: 1)
+spawned uWSGI worker 3 (pid: 5172, cores: 1)
+Invalid HTTP_HOST header: 'www.rhinocerosgin.com'. You may need to add 'www.rhinocerosgin.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.rhinocerosgin.com'. You may need to add 'www.rhinocerosgin.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.rhinocerosgin.com'. You may need to add 'www.rhinocerosgin.com' to ALLOWED_HOSTS.
+Bad Request: /
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 14:26:40 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1022b60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1022b60 pid: 5419 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5419)
+spawned uWSGI worker 1 (pid: 5420, cores: 1)
+spawned uWSGI worker 2 (pid: 5421, cores: 1)
+spawned uWSGI worker 3 (pid: 5422, cores: 1)
+Not Found: /favicon.ico
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Jan  3 14:55:13 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1621b60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1621b60 pid: 6855 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6855)
+spawned uWSGI worker 1 (pid: 6856, cores: 1)
+spawned uWSGI worker 2 (pid: 6857, cores: 1)
+spawned uWSGI worker 3 (pid: 6858, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jan  4 01:06:19 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jan  4 01:19:47 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22a8b50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22a8b50 pid: 5138 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5138)
+spawned uWSGI worker 1 (pid: 5139, cores: 1)
+spawned uWSGI worker 2 (pid: 5140, cores: 1)
+spawned uWSGI worker 3 (pid: 5141, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jan  4 01:23:29 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xefbb50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xefbb50 pid: 5342 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5342)
+spawned uWSGI worker 1 (pid: 5343, cores: 1)
+spawned uWSGI worker 2 (pid: 5344, cores: 1)
+spawned uWSGI worker 3 (pid: 5345, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jan  4 01:30:19 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 22 December 2018 01:42:26
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: jimmy
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /root/PyProject/rhinoceros
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/PyProject/rhinoceros
+your processes number limit is 15076
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Jun 28 2018, 13:15:42)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eb5b50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 3 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1eb5b50 pid: 5722 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5722)
+spawned uWSGI worker 1 (pid: 5724, cores: 1)
+spawned uWSGI worker 2 (pid: 5725, cores: 1)
+spawned uWSGI worker 3 (pid: 5726, cores: 1)
+Not Found: /favicon.ico
+Internal Server Error: /blog/blog_single/5
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+Not Found: /phpMyAdmin/scripts/setup.php
+Not Found: /phpmyadmin/scripts/setup.php
+Not Found: /pma/scripts/setup.php
+Not Found: /myadmin/scripts/setup.php
+Not Found: /MyAdmin/scripts/setup.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /blog_single.html
+Not Found: /blog/about/index.html
+Not Found: /blog/hotel/index.html
+Not Found: /blog/places/index.html
+Internal Server Error: /blog/blog_single/6
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/3
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/5
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/4
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /blog/contact/index.html
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /blog/blog_show/index.html
+Not Found: /blog/index/blog_single.html
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /favicon.ico
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Not Found: /ccvv
+Not Found: /xmlrpc.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /explicit_not_exist_path
+Not Found: /index.html
+Not Found: /index.php
+Not Found: /index.jsp
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /README
+Not Found: /404.html
+Not Found: /500.html
+Not Found: /solr/
+Not Found: /wcm/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyadmin/
+Not Found: /pma/
+Not Found: /echo.php
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /explicit_not_exist_path
+Not Found: /index.html
+Not Found: /index.php
+Not Found: /index.jsp
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /README
+Not Found: /404.html
+Not Found: /500.html
+Not Found: /solr/
+Not Found: /wcm/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyadmin/
+Not Found: /pma/
+Forbidden (CSRF cookie not set.): /
+Not Found: /cgi-bin/nobody/Machine.cgi
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /wls-wsat/CoordinatorPortType
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Not Found: /wls-wsat/CoordinatorPortType
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /phpmyadmin1/
+Not Found: /pmd/
+Not Found: /phpmy/
+Not Found: /phpmyadminn/
+Not Found: /phpmyadmin/
+Not Found: /phpmyadminA/
+Not Found: /sql.php
+Not Found: /mysqladmin/
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /backup.zip
+Forbidden (CSRF cookie not set.): /
+Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+Not Found: /phpMyAdmin/scripts/setup.php
+Not Found: /phpmyadmin/scripts/setup.php
+Not Found: /pma/scripts/setup.php
+Not Found: /myadmin/scripts/setup.php
+Not Found: /MyAdmin/scripts/setup.php
+Not Found: /mysql/scripts/setup.php
+Not Found: /admin/scripts/setup.php
+Not Found: /dbadmin/scripts/setup.php
+Not Found: /PMA/scripts/setup.php
+Not Found: /sqladmin/scripts/setup.php
+Not Found: /db/scripts/setup.php
+Not Found: /cpadmin/scripts/setup.php
+Not Found: /sqladm/scripts/setup.php
+Not Found: /phpMyAdmin2/scripts/setup.php
+Not Found: /my/scripts/setup.php
+Not Found: /cpadmindb/scripts/setup.php
+Not Found: /cpanelphpmyadmin/scripts/setup.php
+Not Found: /phpadmin/scripts/setup.php
+Not Found: /_phpMyAdmin/scripts/setup.php
+Not Found: /phpMyAdmin-2/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.0/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.1/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.2/scripts/setup.php
+Not Found: /php-my-admin/scripts/setup.php
+Not Found: /websql/scripts/setup.php
+Not Found: /phpMyAdmin-2.9.0/scripts/setup.php
+Not Found: /phpMyAdmin-2.11.1-all-languages/scripts/setup.php
+Not Found: /phpMyAdmin-2.6.1-pl2/scripts/setup.php
+Not Found: /phpMyAdmin-2.6.1-pl3/scripts/setup.php
+Not Found: /phpMyAdmin-2.7.5/scripts/setup.php
+Not Found: /phpMyAdmin-2.8.9/scripts/setup.php
+Not Found: /phpMyAdmin3/scripts/setup.php
+Not Found: /blog_single.html
+Not Found: /blog/index/blog_single.html
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/HEAD
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Not Found: /backup.tgz
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /explicit_not_exist_path
+Not Found: /index.html
+Not Found: /index.php
+Not Found: /index.jsp
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /README
+Not Found: /404.html
+Not Found: /500.html
+Not Found: /solr/
+Not Found: /wcm/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyadmin/
+Not Found: /pma/
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Not Found: /explicit_not_exist_path
+Not Found: /index.html
+Not Found: /index.php
+Not Found: /index.jsp
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /README
+Not Found: /404.html
+Not Found: /500.html
+Not Found: /solr/
+Not Found: /wcm/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyadmin/
+Not Found: /pma/
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /zecmd/zecmd.jsp
+Not Found: /jbossass/jbossass.jsp
+Not Found: /shellinvoker/shellinvoker.jsp
+Not Found: /jexws/jexws.jsp
+Not Found: /jexinv/jexinv.jsp
+Not Found: /jexws1/jexws1.jsp
+Not Found: /jexinv1/jexinv1.jsp
+Not Found: /jexws2/jexws2.jsp
+Not Found: /jexinv2/jexinv2.jsp
+Not Found: /jexws3/jexws3.jsp
+Not Found: /jexinv3/jexinv3.jsp
+Not Found: /jexws4/jexws4.jsp
+Not Found: /jexinv4/jexinv4.jsp
+Not Found: /jmx-console/
+Not Found: /admin-console/login.seam
+Not Found: /web-console/ServerInfo.jsp
+Not Found: /invoker/JMXInvokerServlet
+Not Found: /invoker/EJBInvokerServlet
+Not Found: /wls-wsat/CoordinatorPortType
+Not Found: /wls-wsat/CoordinatorPortType11
+Not Found: /wls-wsat/ParticipantPortType
+Not Found: /wls-wsat/ParticipantPortType11
+Not Found: /wls-wsat/RegistrationPortTypeRPC
+Not Found: /wls-wsat/RegistrationPortTypeRPC11
+Not Found: /wls-wsat/RegistrationRequesterPortType
+Not Found: /wls-wsat/RegistrationRequesterPortType11
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /login.cgi
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /redirect.php
+Not Found: /.git/config
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /ccvv
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /robots.txt
+Not Found: /.git/config
+Not Found: /echo.php
+Not Found: /.git/config
+Not Found: /.git/config
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /.git/config
+Not Found: /.git/config
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /.well-known/security.txt
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Not Found: /.git/config
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /blog_single.html
+Internal Server Error: /blog/blog_single/2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /blog/hotel/index.html
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Internal Server Error: /blog/blog_single/6
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /echo.php
+Internal Server Error: /blog/blog_single/3
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Forbidden (CSRF cookie not set.): /
+Internal Server Error: /blog/blog_single/1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/5
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/4
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /blog/blog_show/index.html
+Forbidden (CSRF cookie not set.): /
+Not Found: /blog/about/index.html
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /blog/hotel/index.html
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Internal Server Error: /blog/blog_single/6
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/3
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/5
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/4
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /blog/blog_show/index.html
+Forbidden (CSRF cookie not set.): /
+Not Found: /blog/places/index.html
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /blog/contact/index.html
+Not Found: /blog/index/blog_single.html
+Forbidden (CSRF cookie not set.): /
+Internal Server Error: /blog/blog_single/1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Internal Server Error: /blog/blog_single/2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 43, in blog_single
+    article = models.Article.objects.get(pk=article_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+blog.models.Article.DoesNotExist: Article matching query does not exist.
+Not Found: /robots.txt
+Not Found: /blog/places/index.html
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /.well-known/security.txt
+Not Found: /favicon.ico
+Not Found: /blog/about/index.html
+Not Found: /echo.php
+Not Found: /home.asp
+Not Found: /currentsetting.htm
+Not Found: /login.html
+Not Found: /device_description.xml
+Not Found: /current_config/passwd
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.git/config
+Forbidden (CSRF cookie not set.): /
+Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+Not Found: /phpMyAdmin/scripts/setup.php
+Not Found: /phpmyadmin/scripts/setup.php
+Not Found: /pma/scripts/setup.php
+Not Found: /myadmin/scripts/setup.php
+Not Found: /MyAdmin/scripts/setup.php
+Not Found: /mysql/scripts/setup.php
+Not Found: /admin/scripts/setup.php
+Not Found: /dbadmin/scripts/setup.php
+Not Found: /PMA/scripts/setup.php
+Not Found: /sqladmin/scripts/setup.php
+Not Found: /db/scripts/setup.php
+Not Found: /cpadmin/scripts/setup.php
+Not Found: /sqladm/scripts/setup.php
+Not Found: /phpMyAdmin2/scripts/setup.php
+Not Found: /my/scripts/setup.php
+Not Found: /cpadmindb/scripts/setup.php
+Not Found: /cpanelphpmyadmin/scripts/setup.php
+Not Found: /phpadmin/scripts/setup.php
+Not Found: /_phpMyAdmin/scripts/setup.php
+Not Found: /phpMyAdmin-2/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.0/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.1/scripts/setup.php
+Not Found: /phpMyAdmin-2.10.0.2/scripts/setup.php
+Not Found: /php-my-admin/scripts/setup.php
+Not Found: /websql/scripts/setup.php
+Not Found: /phpMyAdmin-2.9.0/scripts/setup.php
+Not Found: /phpMyAdmin-2.11.1-all-languages/scripts/setup.php
+Not Found: /phpMyAdmin-2.6.1-pl2/scripts/setup.php
+Not Found: /phpMyAdmin-2.6.1-pl3/scripts/setup.php
+Not Found: /phpMyAdmin-2.7.5/scripts/setup.php
+Not Found: /phpMyAdmin-2.8.9/scripts/setup.php
+Not Found: /phpMyAdmin3/scripts/setup.php
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /blog/index/blog_single.html
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /echo.php
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /clientaccesspolicy.xml
